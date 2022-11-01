@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: grid;
+    grid-template-columns: 70% 33%;
+    width: 700px;
+     margin:  auto; 
+     margin-top: 50px;
+     margin-bottom: 50px;
+     background-image: url(./antrum___concept_art_by_daisanvisart_dbysf31-fullview.jpg) ;
+     background-size: 280vh;
+     font-family: 'Roboto', sans-serif;
+
+     
+     
+
+}
+
+.contact{
+    
+    grid-column: 2/3;
+    grid-row: 1/5;
+    background-color: rgb(48, 87, 105);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgb(45, 39, 39);
+   
+    
+
+}
+
+.contact span{
+    display: block;
+    height: 1px;
+    width: 95px;
+    background-color: white;
+    box-shadow:10px 5px 5px rgb(45, 39, 39);
+}
+
+.contact:hover{
+    box-shadow:10px 5px 5px rgb(45, 39, 39);
+}
+
+.contact .contact1 {
+    margin-left: 12px;
+}
+
+.contact .lien, .competance{
+    margin-left: 12px;
+}
+
+.contact div{
+    margin-top: 30px;
+}
+
+
+.moi{
+    background-color: rgb(139, 75, 116);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgb(45, 39, 39);
+    margin: auto;
+    
+   
+}
+
+.moi:hover{
+    box-shadow:10px 5px 5px rgb(45, 39, 39);
+}
+
+h1,h2{
+    text-align: center;
+    
+}
+
+
+
+
+
+.contenair{
+    margin-left: 15px;
+    
+}
+
+.contenair span{
+    display: block;
+    height: 1px;
+    width: 450px;
+    background-color: white;
+    box-shadow:10px 5px 5px rgb(45, 39, 39);
+    
+}
+
+
+
+.contenair li{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.competance li{
+    margin-top: -20;
+    margin-left: -10px;
+}
+
+
+.contenair .bon {
+    position: relative;
+    left: 65px;
+    bottom: 10px;
+    display: block;
+    height: 3px;
+    width:400px;
+    background-color: rgb(147, 209, 12);
+    border-radius: 3px;
+}
+
+
+.contenair .moyen {
+    position: relative;
+    left: 65px;
+    bottom: 10px;
+    display: block;
+    height: 3px;
+    width:200px;
+    background-color: rgb(13, 125, 162);
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(253, 47, 160);
+}
+
+img{
+    width: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.contact1{
+    font-size: 14px;
+}
+
